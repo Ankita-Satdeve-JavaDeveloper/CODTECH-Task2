@@ -59,14 +59,15 @@ The system presents users with a menu to choose different banking operations.
 <br>
 The application loops until the user chooses to exit.
 <br>
+
 # Technologies Used
 <br>
-Java Programming Language: The entire application is written in Java, utilizing its robust features for object-oriented programming and data handling.
+✅Java Programming Language: The entire application is written in Java, utilizing its robust features for object-oriented programming and data handling.
 <br>
-Java Collections Framework: A HashMap is used to store and manage bank accounts, providing efficient access and manipulation of account data.
+✅Java Collections Framework: A HashMap is used to store and manage bank accounts, providing efficient access and manipulation of account data.
 <br>
-Java I/O: The Scanner class is used for reading user input from the console.
+✅Java I/O: The Scanner class is used for reading user input from the console.
 <br>
-Object-Oriented Principles: The project heavily employs OOP concepts such as encapsulation (e.g., using private fields and public methods in the Account class), abstraction (e.g., simplifying account operations), and static members (e.g., using a static HashMap to manage accounts).
+✅Object-Oriented Principles: The project heavily employs OOP concepts such as encapsulation (e.g., using private fields and public methods in the Account class), abstraction (e.g., simplifying account operations), and static members (e.g., using a static HashMap to manage accounts).
 
 
