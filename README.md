@@ -70,6 +70,7 @@ The application loops until the user chooses to exit.
 <br>
 ✅Object-Oriented Principles: The project heavily employs OOP concepts such as encapsulation (e.g., using private fields and public methods in the Account class), abstraction (e.g., simplifying account operations), and static members (e.g., using a static HashMap to manage accounts).
 <br>
+<br>
 In the BankingSystem code provided, several key concepts of Object-Oriented Programming (OOP) and Java programming are utilized. Below is an overview of these concepts:
 
 # Concepts:
