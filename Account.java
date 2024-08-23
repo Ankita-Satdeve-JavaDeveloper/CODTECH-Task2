@@ -1,5 +1,3 @@
-package practice;
-
 class Account {
     private String number;
     private String holderName;
