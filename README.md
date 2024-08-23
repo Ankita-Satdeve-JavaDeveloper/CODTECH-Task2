@@ -15,7 +15,7 @@ Mentor: Muzammil Ahmed
 <br>
 
 # Project Overview: 
-Banking System:
+Online Banking System:
 The "Banking System" project is a simple yet comprehensive simulation of a banking system that allows users to perform essential banking operations such as creating accounts, depositing and withdrawing funds, transferring money between accounts, and checking account balances. The application is console-based and built using Java, making it a great project for demonstrating fundamental concepts of object-oriented programming (OOP) in Java.
 <br>
 # Project Objective
