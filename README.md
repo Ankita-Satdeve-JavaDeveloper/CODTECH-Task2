@@ -73,14 +73,23 @@ The application loops until the user chooses to exit.
 In the BankingSystem code provided, several key concepts of Object-Oriented Programming (OOP) and Java programming are utilized. Below is an overview of these concepts:
 
 # Concepts:
-✅Encapsulation:
+1. Encapsulation:
 <br>
 Definition: Encapsulation is the bundling of data (attributes) and methods that operate on the data into a single unit or class. It also restricts direct access to some of the object's components, which can prevent accidental interference and misuse of the data.
 <br>
 Example in Code:
 The Account class encapsulates the attributes number, holderName, and balance, along with methods to manipulate these attributes (addFunds, deductFunds, transferFunds). The attributes are marked as private, so they cannot be directly accessed from outside the class. Instead, methods (getNumber, getHolderName, getBalance) provide controlled access to the data.
 <br>
-✅
+2. Abstraction:
+<br>
+Definition: Abstraction involves hiding the complex implementation details of a system and showing only the necessary features of an object. It helps to reduce complexity and allows the programmer to focus on interactions at a higher level.
+<br>
+Example in Code:
+<br>
+The Account class abstracts the details of how balance management is handled (e.g., adding, deducting funds) and provides a simplified interface (e.g., addFunds, deductFunds) for users of the class to interact with the account.
+<br>
+The main banking system logic abstracts user operations like creating an account, depositing, withdrawing, transferring money, and checking balance through simple method calls.
+<br>
 ✅
 ✅
 ✅
@@ -96,7 +105,7 @@ The Account class encapsulates the attributes number, holderName, and balance, a
 
 
 
-2. Abstraction
+
 Definition: Abstraction involves hiding the complex implementation details of a system and showing only the necessary features of an object. It helps to reduce complexity and allows the programmer to focus on interactions at a higher level.
 Example in Code:
 The Account class abstracts the details of how balance management is handled (e.g., adding, deducting funds) and provides a simplified interface (e.g., addFunds, deductFunds) for users of the class to interact with the account.
