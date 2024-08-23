@@ -69,5 +69,65 @@ The application loops until the user chooses to exit.
 ✅Java I/O: The Scanner class is used for reading user input from the console.
 <br>
 ✅Object-Oriented Principles: The project heavily employs OOP concepts such as encapsulation (e.g., using private fields and public methods in the Account class), abstraction (e.g., simplifying account operations), and static members (e.g., using a static HashMap to manage accounts).
+<br>
+In the BankingSystem code provided, several key concepts of Object-Oriented Programming (OOP) and Java programming are utilized. Below is an overview of these concepts:
+
+# Concepts:
+1. Encapsulation
+Definition: Encapsulation is the bundling of data (attributes) and methods that operate on the data into a single unit or class. It also restricts direct access to some of the object's components, which can prevent accidental interference and misuse of the data.
+Example in Code:
+The Account class encapsulates the attributes number, holderName, and balance, along with methods to manipulate these attributes (addFunds, deductFunds, transferFunds). The attributes are marked as private, so they cannot be directly accessed from outside the class. Instead, methods (getNumber, getHolderName, getBalance) provide controlled access to the data.
+<br>
+2. Abstraction
+Definition: Abstraction involves hiding the complex implementation details of a system and showing only the necessary features of an object. It helps to reduce complexity and allows the programmer to focus on interactions at a higher level.
+Example in Code:
+The Account class abstracts the details of how balance management is handled (e.g., adding, deducting funds) and provides a simplified interface (e.g., addFunds, deductFunds) for users of the class to interact with the account.
+The main banking system logic abstracts user operations like creating an account, depositing, withdrawing, transferring money, and checking balance through simple method calls.
+
+3. Inheritance
+Definition: Inheritance is a mechanism in which one class acquires the properties (fields and methods) of another. It promotes code reusability and establishes a natural hierarchy.
+Example in Code:
+While the provided code does not explicitly use inheritance, it is a foundational concept in Java that could be applied if, for example, specialized types of accounts (e.g., SavingsAccount, CheckingAccount) were to inherit from a base Account class.
+<br>
+4. Polymorphism
+Definition: Polymorphism allows methods to do different things based on the object it is acting upon, even though they share the same name. It can be achieved through method overloading or overriding.
+Example in Code:
+The code provided does not directly demonstrate polymorphism through method overriding or overloading. However, polymorphism could be implemented by overriding methods in subclasses of Account if inheritance were used.
+<br>
+5. Classes and Objects
+Definition: A class is a blueprint for creating objects (instances of a class). Objects are instances of a class that are created with specific data.
+Example in Code:
+The Account class is a blueprint, and each account created using new Account(...) in the code is an object instance of that class. The BankingSystem class also serves as a blueprint for the operations that can be performed within the banking system.
+<br>
+6. Constructors
+Definition: Constructors are special methods invoked when an object is created. They are used to initialize the object's state.
+Example in Code:
+The Account class has a constructor public Account(String number, String holderName) which initializes the account number, account holder's name, and sets the initial balance to 0.0.
+<br>
+7. Static Members
+Definition: Static members (fields or methods) belong to the class, rather than any instance of the class. They can be accessed directly using the class name.
+Example in Code:
+private static HashMap<String, Account> accountMap is a static member of the BankingSystem class. It holds all the account objects and is shared across all instances of the BankingSystem.
+<br>
+8. Data Structures (HashMap)
+Definition: HashMap is a data structure in Java that allows for the storage and retrieval of key-value pairs. It is part of the Java Collections Framework.
+Example in Code:
+accountMap is a HashMap that stores account details with the account number as the key and the Account object as the value. This allows for efficient retrieval of account information based on the account number.
+<br>
+9. Control Structures
+Definition: Control structures dictate the flow of the program. Common control structures include loops (for, while), conditionals (if, else), and switch statements.
+Example in Code:
+The while loop in the main method controls the execution of the banking system's menu-driven interface, and the switch statement handles different user actions based on their menu selection.
+<br>
+10. Error Handling
+Definition: Error handling is the process of responding to the occurrence of exceptions – anomalous or exceptional conditions requiring special processing.
+Example in Code:
+The code uses conditional checks to ensure that operations like deposits, withdrawals, and transfers are valid (e.g., checking if the amount is positive and does not exceed the balance).
+<br>
+11. User Input and Output
+Definition: Handling user input and displaying output is essential for interactive applications.
+Example in Code:
+The Scanner class is used to capture user input, and System.out.println is used to display messages to the user.
+These concepts collectively allow for the creation of a well-structured, modular, and maintainable banking application.
 
 
